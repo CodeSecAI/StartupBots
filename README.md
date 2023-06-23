@@ -2,8 +2,8 @@
 Beta release of Startup Bots
 
 ## Marketing
-
-PS C:\Users\grego> python .\BotBackend.py -m .\StartupBots\models\marketing.jsonl -t .\StartupBots\templates\marketing_template.txt -u  -A CodeSec
+```
+> python .\BotBackend.py -m .\StartupBots\models\marketing.jsonl -t .\StartupBots\templates\marketing_template.txt -u  -A CodeSec
 Loaded 0 records from .\StartupBots\models\marketing.jsonl
 >>> Write a marketing plan for CodeSec.ai
 Sure, here's a marketing plan for CodeSec.ai:
@@ -25,10 +25,11 @@ Sure, here's a marketing plan for CodeSec.ai:
 8. Partnerships and collaborations: Build partnerships and collaborations with other companies and organizations in the cybersecurity industry. This could include joint marketing campaigns, co-branded content, and referral programs.
 
 9. Measure and optimize: Use analytics tools to measure the effectiveness of marketing campaigns and optimize them for better results. This could include tracking website traffic, email open rates, social media engagement, and conversion rates.
+```
 
 ## HR
-
-PS C:\Users\grego> python .\BotBackend.py -m .\StartupBots\models\hr.jsonl -t .\StartupBots\templates\hr_template.txt -u  -A CodeSec
+```
+python .\BotBackend.py -m .\StartupBots\models\hr.jsonl -t .\StartupBots\templates\hr_template.txt -u  -A CodeSec
 Loaded 0 records from .\StartupBots\models\hr.jsonl
 >>> Write a HR plan for CodeSec.ai
 Sure, here's a basic HR plan for CodeSec.ai:
@@ -48,9 +49,10 @@ Sure, here's a basic HR plan for CodeSec.ai:
 7. Diversity and Inclusion: Foster a diverse and inclusive workplace by promoting diversity in hiring, providing training on unconscious bias, and creating a culture of respect and inclusion.
 
 Overall, the HR plan should focus on attracting, developing, and retaining top talent while ensuring compliance with legal requirements and promoting a positive work environment.
-
+```
 ## Legal
 
+```
 PS C:\Users\grego> python .\BotBackend.py -m .\StartupBots\models\legal.jsonl -t .\StartupBots\templates\legal_template.txt -u  -A CodeSec
 Loaded 0 records from .\StartupBots\models\legal.jsonl
 >>> Write a legal plan for Codesec.ai
@@ -70,3 +72,4 @@ Sure, here is a legal plan for CodeSec.ai:
 
 7. Legal Counsel: CodeSec.ai should have access to legal counsel to provide guidance on legal matters and ensure compliance with relevant laws and regulations. This will help the company make informed decisions and avoid legal pitfalls.
 >>>
+```
